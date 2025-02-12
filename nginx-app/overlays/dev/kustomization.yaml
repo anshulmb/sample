@@ -1,0 +1,5 @@
+namespace: dev-namespace  # Namespace for dev
+bases:
+  - ../../base
+patchesStrategicMerge:
+  - deployment-patch.yaml

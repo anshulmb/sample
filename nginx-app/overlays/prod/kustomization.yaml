@@ -1,0 +1,6 @@
+
+namespace: prod-namespace  # Namespace for prod
+bases:
+  - ../../base
+patchesStrategicMerge:
+  - deployment-patch.yaml
